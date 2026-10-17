@@ -23,9 +23,21 @@ const pregunta4 = {
   correcta: "push",
 };
 
+const pregunta5 = {
+  pregunta: "¿Qué operador compara valor y tipo a la vez?",
+  opciones: ["=", "==", "===", "!="],
+  correcta: "===",
+};
+
+const pregunta6 = {
+  pregunta: "¿Qué método convierte un texto JSON en un objeto de JavaScript?",
+  opciones: ["JSON.stringify", "JSON.parse", "JSON.object", "JSON.convert"],
+  correcta: "JSON.parse",
+};
 
 
-const preguntas = [pregunta1, pregunta2, pregunta3, pregunta4];
+
+const preguntas = [pregunta1, pregunta2, pregunta3, pregunta4, pregunta5, pregunta6];
 
 const mensajePregunta = document.querySelector("#textoPregunta");
 
@@ -68,7 +80,7 @@ function mostrarPregunta() {
 	  })
 	  setTimeout(() => {
       botonSiguiente.click();
-    }, 1900);
+    }, 900);
 	 
     });				 
 
@@ -79,9 +91,7 @@ function mostrarPregunta() {
   });
 	
 }
-mostrarPregunta();
-
- 
+mostrarPregunta(); 
 
 
 botonSiguiente.addEventListener("click",function () {
