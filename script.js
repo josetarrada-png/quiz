@@ -80,7 +80,7 @@ function mostrarPregunta() {
 	  })
 	  setTimeout(() => {
       botonSiguiente.click();
-    }, 900);
+    }, 1100);
 	 
     });				 
 
