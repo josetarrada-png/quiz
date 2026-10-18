@@ -12,4 +12,4 @@ HTML, CSS y JavaScript.
 
 ## Versión publicada
 
-[Abrir el quiz](PEGA-AQUÍ-LA-DIRECCIÓN)
+[Abrir el quiz](https://josetarrada-png.github.io/quiz/)
